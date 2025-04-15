@@ -1,5 +1,5 @@
 from starlette.applications import Starlette
-from starlette.routing import Mount, Host
+from starlette.routing import Mount
 from mcp.server.fastmcp import FastMCP
 from datetime import datetime
 from zoneinfo import ZoneInfo
